@@ -1,0 +1,102 @@
+@font-face {
+  font-family: GT Eesti Pro Display;
+  src: url("/gteestiprodisplay_regular.woff") format("woff");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "GT Eesti Pro Display", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #edeff5 !important;
+}
+
+.container {
+  background-color: #e1e2e7;
+  width: 440px;
+  height: 600px;
+  padding: 2.125rem;
+  border-radius: 10px;
+}
+
+.image-cur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e2e7;
+}
+
+.image-image {
+  background-color: #e1e2e7;
+}
+
+.title-cur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e2e7;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.input-cur {
+  margin: 40px 0px;
+  text-align: center;
+  font-size: 22px !important;
+  border-color: #333 !important;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container,
+.right-container {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.select-cur {
+  text-align: center;
+  border-color: #333 !important;
+}
+
+.mini-title {
+  margin-bottom: 10px;
+}
+
+.convert,
+.result {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.convert button {
+  font-weight: 500;
+  width: 100%;
+}
+
+.result {
+  background-color: #b9c5d4;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
