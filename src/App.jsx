@@ -34,7 +34,7 @@ function App() {
     const convertedAmount = (amount * toRate) / fromRate;
     setResult(
       `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)} ${toCurrency}`
-    ); // Display result
+    );
     toast({
       title: "Currency Converted",
       status: "success",
